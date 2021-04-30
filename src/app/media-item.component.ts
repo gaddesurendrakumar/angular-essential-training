@@ -9,6 +9,6 @@ export class MediaItemComponent {
   name = 'The Redemption';
 
   wasWatched() {
-    return true;
+    return false;
   }
 }
