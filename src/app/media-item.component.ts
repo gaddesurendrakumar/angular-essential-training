@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'mw-media-item',
@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class MediaItemComponent {
 
+  @Input() mediaItem;
   onDelete(){
     console.log('Delete Method invoked......');
   }
